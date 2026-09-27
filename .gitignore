@@ -1,0 +1,54 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+*.swp
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.json
+coverage*.xml
+*.coverage
+
+# Local settings / secrets
+appsettings.*.local.json
+*.env
+.env*
+secrets.json
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
